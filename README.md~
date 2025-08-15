@@ -1,1 +1,65 @@
-# Challenge Amigo Secreto
+Challenge Amigo Secreto
+
+Pequeña app web para cargar una lista de participantes y sortear automáticamente el Amigo Secreto (sin repetidos, y opcionalmente evitando emparejamientos prohibidos).
+
+🧩 Características
+
+Agregar/editar/eliminar participantes.
+
+Sorteo aleatorio reproducible (semilla opcional).
+
+Exportar resultados a TXT/CSV.
+
+Interfaz responsive (HTML/CSS/JS puros).
+
+🚀 Demo
+
+
+
+📁 Estructura del proyecto
+
+.
+├── index.html
+├── style.css
+├── app.js
+└── assets/
+    ├── amigo-secreto.png
+    └── play_circle_outline.png
+
+▶️ Uso
+
+Abre index.html en tu navegador.
+
+Escribe o pega la lista de nombres (uno por línea).
+
+Presiona Sortear.
+
+Descarga/guarda los resultados.
+
+🛠️ Desarrollo local
+
+No requiere build ni dependencias. Basta con un servidor estático (opcional):
+
+# Python 3
+python -m http.server 8080
+# Luego visita http://localhost:8080
+
+🧪 Pruebas manuales rápidas
+
+Cargar 3–10 nombres y verificar que no haya repetidos.
+
+Sortear varias veces para comprobar aleatoriedad.
+
+Probar en móvil y escritorio.
+
+🔒 Licencia
+
+MIT. Consulta el archivo LICENSE.
+
+Notas de diseño (UI)
+
+Iconografía simple (outline) y tipografía legible.
+
+Contraste AA (WCAG) y estados hover/focus visibles.
+
+Feedback tras el sorteo (toast o mensaje inline).
