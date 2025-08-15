@@ -22,3 +22,20 @@
         // Mostrar la lista actualizada (puedes llamar a una función que actualice la UI)
         mostrarLista();
     }
+        // Función para mostrar la lista de amigos
+    function mostrarLista() {
+        const lista = document.getElementById('listaAmigos'); // Selecciona el elemento de la lista en el HTML
+        lista.innerHTML = ''; // Limpiar la lista antes de agregar nuevos elementos
+
+        // Iterar sobre el array de amigos
+        for (let i = 0; i < amigos.length; i++) {
+            const amigo = amigos[i];
+
+            // Crear un elemento <li> para cada amigo
+            const li = document.createElement('li');
+            li.textContent = amigo;  // Asignar el nombre del amigo como texto del <li>
+
+            // Agregar el <li> a la lista en el HTML
+            lista.appendChild(li);
+        }
+    }
