@@ -4,17 +4,17 @@ Pequeña app web para cargar una lista de participantes y sortear automáticamen
 
 🧩 Características
 
-Agregar/editar/eliminar participantes.
+Carga de una lista de participantes desde un cuadro de texto.
 
-Sorteo aleatorio reproducible (semilla opcional).
+Sorteo automático del Amigo Secreto sin repeticiones.
 
-Exportar resultados a TXT/CSV.
+Opción para evitar emparejamientos prohibidos (manual).
 
-Interfaz responsive (HTML/CSS/JS puros).
+Interfaz simple y responsive usando HTML, CSS y JS puro.
 
 🚀 Demo
 
-
+https://medinae9.github.io/challenge-amigo-secreto/
 
 📁 Estructura del proyecto
 
@@ -35,14 +35,6 @@ Escribe o pega la lista de nombres (uno por línea).
 Presiona Sortear.
 
 Descarga/guarda los resultados.
-
-🛠️ Desarrollo local
-
-No requiere build ni dependencias. Basta con un servidor estático (opcional):
-
-# Python 3
-python -m http.server 8080
-# Luego visita http://localhost:8080
 
 🧪 Pruebas manuales rápidas
 
