@@ -19,7 +19,7 @@
         // Limpiar el campo de entrada
         input.value = '';
 
-        // Mostrar la lista actualizada (puedes llamar a una función que actualice la UI)
+        // Mostrar la lista actualizada
         mostrarLista();
     }
         // Función para mostrar la lista de amigos
