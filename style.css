@@ -160,3 +160,33 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+/* ============================================= */
+/* ESTILOS DE RULETA */
+/* ============================================= */
+
+.ruleta-container {
+    width: 100%;
+    max-width: 420px;     /* límite de ancho */
+    margin: 20px auto;    /* centrada */
+    text-align: center;
+}
+
+#ruleta {
+    width: 100%;          /* hace la ruleta responsive */
+    height: auto;         /* mantiene proporciones */
+    max-width: 400px;     /* coincide con tus atributos HTML */
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Triángulo de puntero superior */
+.ruleta-puntero {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 25px solid #E53935;
+    margin: 0 auto -10px auto;
+}
